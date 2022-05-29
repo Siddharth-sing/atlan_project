@@ -14,12 +14,10 @@ export default function BodyComp() {
   const [visible, setVisible] = useState(false);
 
   const handleChange = (event) => {
-    console.log("The Query", event.target.value);
     setQuery(event.target.value);
     setVisible(true);
   };
   const handleExecute = (event) => {
-    console.log("Inside execute");
     setQuery(1);
     setVisible(true);
   };
@@ -36,8 +34,6 @@ export default function BodyComp() {
       };
     }
   };
-  console.log(data);
-  console.log(query);
   return (
     <div className="body-jsx">
       <div className="link-tree">
@@ -88,7 +84,12 @@ export default function BodyComp() {
             label="Enter your query or select below"
             variant="outlined"
           />
-          <Button onClick={handleExecute} style={{display:"flex"}}variant="contained" component="span">
+          <Button
+            onClick={handleExecute}
+            style={{ display: "flex" }}
+            variant="contained"
+            component="span"
+          >
             {" "}
             Execute
           </Button>

@@ -41,20 +41,16 @@ const rows3 = [
 export default function DataGridMUI(props) {
   const [rowx, setRows] = useState(rows1);
 
-  console.log("Visibility = ", props.vis);
-  console.log("Query = ", props.q);
-
   useEffect(() => {
-    console.log("Inside Useeffect");
     handleRows();
   });
 
   function handleRows() {
     if (props.q === 1) {
       setRows(rows1);
-    }else if(props.q === 2){
+    } else if (props.q === 2) {
       setRows(rows2);
-    }else if(props.q === 3){
+    } else if (props.q === 3) {
       setRows(rows3);
     }
   }
