@@ -29,7 +29,7 @@
 * *The page loading time analysis report is shown below :*
        <p><img width="639" alt="image" src="https://user-images.githubusercontent.com/72120258/170993318-83b04389-f528-4967-8772-4d6d25080b4a.png"></p>
        
-> * I have measured the overall performance of the web app using `Lighhouse` tool powered by google. It exposes the web app through various different test cases and good practices and finally generates a score.
+> * I have measured the overall performance of the web app using `Lighthouse` tool powered by google. It exposes the web app through various different test cases and good practices and finally generates a score.
 > * For measuring the loading time of the web app I have used the performance tool provided in the `inspect` window.
 > * The loading time of the website lie somewhere between `9ms - 15ms`. 
 
