@@ -35,5 +35,6 @@
 > * I have measured the overall performance of the web app using `Lighthouse` tool powered by google. It exposes the web app through various different test cases and good practices and finally generates a score.
 > * For measuring the loading time of the web app I have used the performance tool provided in the `inspect` window.
 > * The loading time of the website lies somewhere between `9ms - 15ms`. 
+> * Removed unused javascript to do some optimization in the load time.
 
 
